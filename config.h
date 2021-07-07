@@ -21,6 +21,8 @@ static const char *colors[][3]      = {
 };
 
 static const char *const autostart[] = {
+	"dunst", NULL,
+	"picom", NULL,
         "sh", "-c", "~/.config/dwm/autostart.sh", NULL,
 	NULL /* terminate */
 };
