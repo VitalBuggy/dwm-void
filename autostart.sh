@@ -1,3 +1,5 @@
 setxkbmap -option caps:swapescape
-~/.fehbg &
+xrdb ~/.Xresources
+wmname LG3D
+nitrogen --restore
 slstatus &
